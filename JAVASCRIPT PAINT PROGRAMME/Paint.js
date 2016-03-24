@@ -4,9 +4,9 @@
     var context;
 
     //Calling canvas by name fro HTML Document        
-    window.onload = function () {
-    var canvas = document.getElementById("drawingCanvas");
-    var context = canvas.getContext("2d");
+    window.onload = function() {
+    canvas = document.getElementById("drawingCanvas");
+    context = canvas.getContext("2d");
             
     //Begin attaching events for drawing, based on user click
     canvas.onmousedown = startDrawing;
